@@ -1,9 +1,3 @@
-这是一个整合了所有信息（包括 UIEB 数据集、项目介绍、安装步骤、Python/C++ 双版本说明）的完整 `README.md` 文件内容。
-
-你可以直接**全选复制**下面的内容，保存为 `README.md` 文件，然后上传到你的 GitHub 仓库。
-
----
-
 ```markdown
 # Underwater Image Enhancement Tool / 水下图像增强工具
 
