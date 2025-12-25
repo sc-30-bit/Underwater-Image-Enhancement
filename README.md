@@ -1,5 +1,5 @@
 ```markdown
-# Underwater Image Enhancement Tool / 水下图像增强工具
+# Underwater Image Enhancement Tool
 
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-blue.svg)](https://opencv.org/)
 [![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)](https://www.python.org/)
@@ -11,15 +11,11 @@
 
 This project provides a complete pipeline to correct color casts, remove haze, and improve contrast in underwater photos. It includes both a user-friendly **Python (PyQt5) GUI** version and a high-performance **C++ (OpenCV)** version.
 
-这是一个基于物理模型的水下图像增强工具，支持颜色还原和去雾。本项目同时提供了 **Python (PyQt5) 图形界面版** 和 **C++ (OpenCV) 高性能版**，方便研究人员和开发者使用。
-
 ---
 
-## 🖼️ Dataset / 数据集
+## 🖼️ Dataset
 
 This project uses the **UIEB (Underwater Image Enhancement Benchmark)** dataset for testing and validation. The raw dataset preserves the original underwater lighting conditions, making it ideal for evaluating restoration algorithms.
-
-本项目推荐使用 **UIEB (Underwater Image Enhancement Benchmark)** 数据集进行测试。该数据集包含真实的原始水下图像，非常适合用于评估增强算法的效果。
 
 * **Dataset Name**: UIEB Dataset (Raw)
 * **Download Link**: [Kaggle - UIEB Dataset Raw](https://www.kaggle.com/datasets/larjeck/uieb-dataset-raw)
@@ -32,27 +28,27 @@ This project uses the **UIEB (Underwater Image Enhancement Benchmark)** dataset 
 
 ---
 
-## ✨ Features / 功能特性
+## ✨ Features 
 
 The enhancement pipeline consists of 6 modular stages designed to tackle specific underwater degradation issues:
-本增强流水线包含 6 个模块化步骤，专门解决水下图像的特定退化问题：
+
 
 1.  **White Balance Correction (LAB)**: Corrects color casts by adjusting A (Green-Red) and B (Blue-Yellow) channels in LAB space.
-    * *白平衡修正*：在 LAB 空间修正色偏。
+    
 2.  **Red Channel Restoration**: Compensates for the severe absorption of red light using histogram equalization.
-    * *红通道恢复*：补偿水下严重被吸收的红光分量。
+    
 3.  **CLAHE**: Contrast-Limited Adaptive Histogram Equalization for improving local contrast without amplifying noise.
-    * *CLAHE*：限制对比度自适应直方图均衡化，增强局部细节。
+    
 4.  **Dark Channel Dehazing**: Removes underwater haze/fog using the Dark Channel Prior (DCP) algorithm.
-    * *暗通道去雾*：基于暗通道先验去除水体雾霭。
+    
 5.  **Adaptive Sharpening**: Unsharp masking to enhance edge details.
-    * *自适应锐化*：增强边缘细节。
+
 6.  **Gamma Correction**: Brightens shadow regions to reveal hidden details.
-    * *Gamma 校正*：提亮暗部区域，显示更多细节。
+    
 
 ---
 
-## 🛠️ Quick Start / 快速开始
+## 🛠️ Quick Start
 
 ### Option 1: Python Version (GUI)
 *Best for interactive testing and parameter tuning.*
@@ -106,7 +102,7 @@ A standard `CMakeLists.txt` is recommended for linking OpenCV on Windows.
 
 ---
 
-## 📂 Project Structure / 项目结构
+## 📂 Project Structure 
 
 ```text
 Underwater-Image-Enhancement/
@@ -117,7 +113,7 @@ Underwater-Image-Enhancement/
 
 ```
 
-## 📊 Pipeline Comparison / 效果对比
+## 📊 Pipeline Comparison 
 
 | Stage | Visual Effect | Description |
 | --- | --- | --- |
@@ -126,11 +122,6 @@ Underwater-Image-Enhancement/
 | **Dehaze** | Clearer | Haze/Fog removed, transmission map applied. |
 | **Final** | Sharp & Natural | Local contrast enhanced and edges sharpened. |
 
-## 🤝 Contributing / 贡献
-
-Contributions are welcome! If you find a bug or have an idea for improvement (e.g., Deep Learning integration), please feel free to submit an issue or a pull request.
-
-欢迎提交 Issue 或 Pull Request！如果你有改进建议（例如集成深度学习模型），请随时联系。
 
 ## 📄 License
 
