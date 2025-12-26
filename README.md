@@ -19,6 +19,26 @@ This project provides a complete pipeline to correct color casts, remove haze, a
 | ![Original Image](figs/8_img_.png) | ![Enhanced Result](figs/enhanced_result.jpg) |
 
 ---
+## 🎥 Video Demo
+
+Here is a real-time comparison.
+
+<table>
+  <tr>
+    <th width="50%">Original Video Input</th>
+    <th width="50%">Enhanced Video Output</th>
+  </tr>
+  <tr>
+    <td>
+      <video src="figs/video1.mp4" controls="controls" muted="muted" style="max-width: 100%;"></video>
+    </td>
+    <td>
+      <video src="figs/enhanced_video.mp4" controls="controls" muted="muted" style="max-width: 100%;"></video>
+    </td>
+  </tr>
+</table>
+
+> **Note**: If the video does not play, please try using a different browser or check the file path.
 
 ## 🖼️ Dataset
 
@@ -126,10 +146,22 @@ Underwater-Image-Enhancement/
 | **Final** | Sharp & Natural | Local contrast enhanced and edges sharpened. |
 
 
+
+## 🔗 Citation
+
+If you use this code or the original method, please acknowledge the source:
+
+```bibtex
+@misc{opencv_underwater_2025,
+  title = {Guide to Underwater Image Enhancement Using OpenCV},
+  author = {Samruddhi},
+  year = {2025},
+  howpublished = {\url{[https://opencv.org/blog/underwater-image-enhancement-using-opencv/](https://opencv.org/blog/underwater-image-enhancement-using-opencv/)}},
+  note = {Accessed: 2025-12-17},
+  organization = {OpenCV.org}
+}
+```
+
 ## 📄 License
 
 This project is open source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
-
-```
-
-```
