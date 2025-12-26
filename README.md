@@ -14,9 +14,17 @@ This project provides a complete pipeline to correct color casts, remove haze, a
 
 ## 📸 Results
 
+https://github.com/user-attachments/assets/c0dbb4f3-cc7f-4fd2-97c9-c7bde30167f9
+
+
+
 | **Original Input** | **Enhanced Output** |
 | :---: | :---: |
 | ![Original Image](figs/8_img_.png) | ![Enhanced Result](figs/enhanced_result.jpg) |
+
+
+https://github.com/user-attachments/assets/3f9de515-fb8e-4348-a4de-d375a558b343
+
 
 ---
 ## 🎥 Video Demo
@@ -30,10 +38,11 @@ Here is a real-time comparison.
   </tr>
   <tr>
     <td>
-      <video src="figs/video1.mp4" controls="controls" muted="muted" style="max-width: 100%;"></video>
+      <video src="https://github.com/user-attachments/assets/c0dbb4f3-cc7f-4fd2-97c9-c7bde30167f9" controls="controls" muted="muted" style="max-width: 100%;"></video>
     </td>
     <td>
-      <video src="figs/enhanced_video.mp4" controls="controls" muted="muted" style="max-width: 100%;"></video>
+      <video src="https://github.com/user-attachments/assets/3f9de515-fb8e-4348-a4de-d375a558b343
+" controls="controls" muted="muted" style="max-width: 100%;"></video>
     </td>
   </tr>
 </table>
